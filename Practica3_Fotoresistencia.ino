@@ -1,7 +1,6 @@
 /*
 Este código sirve para encender o apagar un led en función del valor que se lee de una foto resistencia, 
 si la foteresistencia detecta mucha luz el LED se apaga, si hay poca luz el LED se enciende.
-A menos luz menor resistencia, a mayor luz mayor resistencia.
 */
 int sensorPin = A0;
 int ledPin = 13;
